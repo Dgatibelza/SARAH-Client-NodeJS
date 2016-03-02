@@ -1,0 +1,5 @@
+{
+  "cine" : {
+    "Sarah qu'est ce qu'il y a au ciné" : { "url" : "http://127.0.0.1:8080/sarah/movie?" }
+  }
+}

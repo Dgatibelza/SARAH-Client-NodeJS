@@ -1,0 +1,26 @@
+{
+  "days" : {
+    "lundi"     : { "url" : "day=1" },
+    "mardi"     : { "url" : "day=2" },
+    "mercredi"  : { "url" : "day=3" },
+    "jeudi"     : { "url" : "day=4" },
+    "vendredi"  : { "url" : "day=5" },
+    "samedi"    : { "url" : "day=6" },
+    "dimanche"  : { "url" : "day=7" }
+  },
+  
+  "months" : {
+    "janvier"   : { "url" : "month=1"  },
+    "fevrier"   : { "url" : "month=2"  },
+    "mars"      : { "url" : "month=3"  },
+    "avril"     : { "url" : "month=4"  },
+    "mai"       : { "url" : "month=5"  },
+    "juin"      : { "url" : "month=6"  },
+    "juillet"   : { "url" : "month=7"  },
+    "aout"      : { "url" : "month=8"  },
+    "septembre" : { "url" : "month=9"  },
+    "octobre"   : { "url" : "month=10" },
+    "novembre"  : { "url" : "month=11" },
+    "decembre"  : { "url" : "month=12" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "time" : {
+    "Sarah il est quelle heure"  : { "url" : "http://127.0.0.1:8080/sarah/time?" },
+	"Sarah quelle heure il est"  : { "url" : "http://127.0.0.1:8080/sarah/time?" },
+	"Sarah donne moi l'heure"    : { "url" : "http://127.0.0.1:8080/sarah/time?" }
+  }
+}

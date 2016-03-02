@@ -1,0 +1,6 @@
+{
+  "meteo" : {
+    "Sarah quel est la météo" : { "url" : "http://127.0.0.1:8080/sarah/meteo?" },
+    "Sarah quel est la météo [$days|en $months] à 10 heure" : { "url" : "http://127.0.0.1:8080/sarah/meteo?" }
+  }
+}

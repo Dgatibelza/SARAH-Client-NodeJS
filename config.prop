@@ -1,0 +1,27 @@
+{
+  "oxford" : {
+    "clientId"   : "sarah",
+    "primaryKey" : "",
+    "locale"     : "fr-FR"
+  },
+
+  "engine" : {
+    "confidence" : 0.5
+  },
+
+  "sox" : {
+    "path" : "/bin/win32/sox-14.4.2/sox.exe",
+    "args" : [
+	    "-q",
+	    "-b", "16",
+	    "-t", "waveaudio", "default", "-t", "wav", "-",
+	    "rate", "16000", "channels", "2",
+	    "silence", "1", "0.2", "1%", "1", "0.4", "1%",
+	    "highpass", "100", "norm", 
+	    "remix", "-", "compand", "0.05,0.2", "6:-54,-90,-36,-36,-24,-24,0,-12", "0", "-90", "0.1", 
+	    "vad", "-T", "0.5", "-p", "0.5", "-t", "5", "fade", "0.1", "reverse", 
+	    "vad", "-T", "0.5", "-p", "0.5", "-t", "5", "fade", "0.1", "reverse", 
+	    "norm", "-0.1"
+    ]
+  }
+}

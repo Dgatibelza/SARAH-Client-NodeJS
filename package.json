@@ -1,0 +1,19 @@
+{
+    "name": "sarah-client",
+    "description": "SARAH v4.0 Client ",    
+    "version": "0.0.1",
+    "author": "Jean-Philippe Encausse <Jp@encausse.net>",
+    "license": "WTFPL",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JpEncausse/SARAH-Client-NodeJS.git"
+    }, 
+   
+    "dependencies": {
+        "stream-buffers": "~3.0.0",
+        "request": "*",
+        "clj-fuzzy": "~0.3.1",
+        "winston": "~1.0.1",
+        "extend": "~3.0.0"
+    }
+}
